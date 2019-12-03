@@ -7,14 +7,13 @@ function fuelSum(list) {
     value = value / 3;
     value = Math.floor(value);
     value = value - 2;
-    total += list[i];
+    total = total + value;
+    console.log("Value " + i + " - " + value);
+    console.log("Total " + i + " - " + total);
   }
-  console.log("Poop Fart " + total);
+  console.log("" + total);
   alert(total);
-  total = 0;
 }
-
-
 
 var total = 0;
 var list = [73617,
