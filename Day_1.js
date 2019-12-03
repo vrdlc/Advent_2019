@@ -1,13 +1,22 @@
 
 function fuelSum(list) {
   //Divide by 3, round down, subtract 2
-  var value = 104372;
-  value = value / 3;
-  value = Math.floor(value);
-  value = value - 2;
-  console.log("Poop Fart " + value);
+  for (i = 0; i < list.length; i++){
+
+    var value = list[i];
+    value = value / 3;
+    value = Math.floor(value);
+    value = value - 2;
+    total += list[i];
+  }
+  console.log("Poop Fart " + total);
+  alert(total);
+  total = 0;
 }
 
+
+
+var total = 0;
 var list = [73617,
 104372,
 131825,
