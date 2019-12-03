@@ -1,6 +1,11 @@
 
 function fuelSum(list) {
-  console.log("Poop Fart " + list);
+  //Divide by 3, round down, subtract 2
+  var value = 104372;
+  value = value / 3;
+  value = Math.floor(value);
+  value = value - 2;
+  console.log("Poop Fart " + value);
 }
 
 var list = [73617,
