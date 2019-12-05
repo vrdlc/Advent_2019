@@ -4,15 +4,10 @@ function fuelSum(list) {
   for (i = 0; i < list.length; i++){
 
     var value = list[i];
-    value = value / 3;
-    value = Math.floor(value);
-    value = value - 2;
+    value = Math.floor(fuel/3)-2
     total = total + value;
-    console.log("Value " + i + " - " + value);
-    console.log("Total " + i + " - " + total);
   }
   console.log("" + total);
-  alert(total);
 }
 
 var total = 0;
