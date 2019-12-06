@@ -34,3 +34,4 @@ var code = [1,0,0,3,1,1,2,3,1,3,4,3,1,5,0,3,2,1,10,19,1,6,19,23,1,13,23,27,1,6,2
     console.log("Position 0: " + code[0]);
   }
 }
+//At the end, refactor to streamline process
